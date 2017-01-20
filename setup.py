@@ -52,8 +52,7 @@ Sentimental uses Scikit-learn to perform easy sentiment analysis. The idea is to
     install_requires=[
         'numpy>=1.11.0',
         'scipy>=0.17.0',
-        'scikit-learn>=0.17.1',
-        'pyahocorasick>=1.1.0',
+        'scikit-learn>=0.17.1'
     ],
     extras_require={
         'tests': tests_require,

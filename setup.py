@@ -9,7 +9,7 @@
 # Copyright (c) 2016, Erik Gärtner <erik@gartner.io>
 
 from setuptools import setup, find_packages
-from version import __version__
+__version__ = '2.2.3'
 
 tests_require = [
     'mock',

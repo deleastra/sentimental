@@ -4,7 +4,7 @@ from collections import Counter
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
-from sklearn import cross_validation
+from sklearn.model_selection import cross_validate
 from sklearn.metrics import accuracy_score
 
 
